@@ -9,6 +9,6 @@ Database: <strong>Mysql</strong>
 
 App mobile: <strong>Ionic 2</strong>
 
-Software for test: <strong>Android Studio (for app Android) and Xcode (for app IOS)</strong>
+Software for test: <strong>Android Studio and Xcode</strong>
 
 
