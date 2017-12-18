@@ -9,4 +9,6 @@ Database: <strong>Mysql</strong>
 
 App mobile: <strong>Ionic 2</strong>
 
+Software: Android Studio and Xcode
+
 
