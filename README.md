@@ -22,6 +22,8 @@ Software for test: <strong>Android Studio and Xcode</strong>
 - Driver for Oracle  oci8 and pdo<br>
 - Ionic 2 cli<br>
 - Cordova<br>
+- Android Studio<br>
+- Xcode for IOS app store<br>
 </pre>
 
 
