@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-buttons start>
+      <button ion-button
+              *ngIf="_us.activo()"
+              (click)="_us.cerrar_sesion()">
+        Salir
+      </button>
+    </ion-buttons>
+
+
+    <ion-title>
+      Mi Tiendas
+    </ion-title>
+
+    <ion-buttons end>
+
+      <button ion-button icon-only
+              (click)="_cs.ver_carrito()">
+        <ion-icon name="cart"></ion-icon>
+        <ion-badge color="danger"
+                   class="carrito-numero"
+                   *ngIf="_cs.items.length > 0">
+                {{ _cs.items.length }}
+        </ion-badge>
+      </button>
+
+      &nbsp;
+      &nbsp;
+
+    </ion-buttons>
+
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row *ngFor="let pares of _ps.productos">
+      <ion-col *ngFor="let item of pares"
+              [navParams]="{ producto: item }"
+              [navPush]="productoPage">
+        <img [src]="item.codigo | imagen">
+        <p>
+          {{ item.producto }}
+          <br>
+          {{ item.precio_compra | currency:'USD':true }}
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-infinite-scroll (ionInfinite)="siguiente_pagina($event)">
+     <ion-infinite-scroll-content></ion-infinite-scroll-content>
+   </ion-infinite-scroll>
+
+</ion-content>

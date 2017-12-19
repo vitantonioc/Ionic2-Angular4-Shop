@@ -1,0 +1,35 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ categoria.linea }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item *ngFor="let item of _ps.por_categoria">
+
+      <ion-thumbnail item-left>
+        <img [src]="item.codigo | imagen">
+      </ion-thumbnail>
+
+      <h2>{{ item.producto }}</h2>
+      <p> {{ item.proveedor }}</p>
+
+      <button ion-button clear item-right
+              [navPush]="productoPage"
+              [navParams]="{ producto: item }">
+        Ver
+      </button>
+
+    </ion-item>
+
+  </ion-list>
+
+
+</ion-content>
