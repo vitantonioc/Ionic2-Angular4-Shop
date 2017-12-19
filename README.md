@@ -19,6 +19,7 @@ Software for test: <strong>Android Studio and Xcode</strong>
 - Oracle 10+<br>
 - Php 5.6+<br>
 - CodeIgniter 3.1.4<br>
+- Driver for Oracle  oci8 and pdo<br>
 - Ionic 2 cli<br>
 - Cordova<br>
 </pre>
