@@ -1,5 +1,5 @@
 # Ionic2 Angular4 Shop
-Shop app/web for Android and IOS with Ionic 2  , Angular 4, Mysql  and CodeIgniter
+Shop app/web for Android and IOS with Ionic 2  , Angular 4, Oracle  and CodeIgniter
 
 Front-End: <strong>Angular 4</strong>
 
