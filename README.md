@@ -7,8 +7,19 @@ Back-End: <strong>CodeIgniter</strong>
 
 Database: <strong>Mysql</strong>
 
-App mobile: <strong>Ionic 2</strong>
+App mobile: <strong>Ionic 2 / Cordova</strong>
 
 Software for test: <strong>Android Studio and Xcode</strong>
+
+
+
+<h3>Requirements:</h3>
+<pre>
+- Node 5.9+<br>
+- Mysql<br>
+- CodeIgniter<br>
+- Ionic 2 cli<br>
+- Cordova<br>
+</pre>
 
 
