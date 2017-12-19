@@ -17,7 +17,7 @@ Software for test: <strong>Android Studio and Xcode</strong>
 <pre>
 - Node 5.9+<br>
 - Mysql<br>
-- CodeIgniter<br>
+- CodeIgniter 3.1.4<br>
 - Ionic 2 cli<br>
 - Cordova<br>
 </pre>
